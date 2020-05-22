@@ -1,0 +1,5 @@
+@import url('./__item/photo-grid__item.css');
+.photo-grid{
+  width: 928px;
+  height: 942px;
+}
