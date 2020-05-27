@@ -11,7 +11,3 @@
   width: 100%;
   text-decoration-line: none;
 }
-
-.header__lang-link:focus{
-  text-decoration-line: underline;
-}
