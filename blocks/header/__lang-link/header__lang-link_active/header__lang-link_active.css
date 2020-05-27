@@ -1,5 +1,4 @@
-@import url('./header__lang-link_active/header__lang-link_active.css');
-.header__lang-link{
+.header__lang-link_active{
   font-family: 'inter', Arial,sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -9,9 +8,5 @@
   color: #ffffff;
   max-width: 30px;
   width: 100%;
-  text-decoration-line: none;
-}
-
-.header__lang-link:focus{
   text-decoration-line: underline;
 }

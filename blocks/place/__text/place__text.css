@@ -1,0 +1,6 @@
+.place__text{
+  grid-area: text;
+  max-width: 100%;
+  display: grid;
+  gap: 24px;
+}

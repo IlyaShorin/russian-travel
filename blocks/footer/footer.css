@@ -1,7 +1,25 @@
 @import url('./__copyright/footer__copyright.css');
 @import url('./__link/footer__link.css');
-
+@import url('./__links/footer__links.css');
+@import url('./__copyright/footer__copyright.css');
 .footer{
-  width: 928px;
-  height: 18px;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 92px auto 24px;
+
+}
+@media screen and (max-width:768px){
+  .footer{
+    margin: 88px auto 24px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .footer{
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 16px;
+    margin: 64px auto 24px;
+  }
 }
